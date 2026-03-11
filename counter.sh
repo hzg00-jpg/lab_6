@@ -1,9 +1,10 @@
 #!/bin/bash
 
 COUNT = 0
+read file_type 
 
 for FILE in *; do
-    if [[ "$FILE" == *."$EXT" ]]; then
+    if [[ "$FILE" == *.file_type ]]; then
         ((COUNT++))
     fi
 done
