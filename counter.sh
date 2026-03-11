@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COUNT = 0
+COUNT=0
 read file_type 
 
 for FILE in *; do
