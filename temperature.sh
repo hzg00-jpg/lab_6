@@ -10,5 +10,5 @@ if [[ unit == "C" ]]
     echo "temp = ${answer}C"
 elif [[ unit == "F" ]]
     answer=$(echo "scale=2; ($num - 32) * 5/9" | bc)
-    echo "temp = ${answer}F"
+    echo "$temp = ${answer}F"
 fi
